@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Streamlit config / cache
+.streamlit/
+
+# Temporary files
+*.tmp
+*.log

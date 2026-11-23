@@ -1,0 +1,52 @@
+{
+  "Greeting": [
+    "Hello! Welcome to our store. How can I help you find what you need today?",
+    "Hi there! I'm your e-commerce shopping assistant. Looking for recommendations, order updates, or support?",
+    "Greetings! Feel free to ask about products, tracking your order, payments, or returns."
+  ],
+  "Product_Search": [
+    "You can browse all matching products in our catalog by heading over to the 'Shop by Category' section or using our search bar.",
+    "We have an extensive collection in that category! Check out our trending arrivals on the explore page.",
+    "Searching our inventory now! You can filter results by brand, customer rating, and price on the catalog page."
+  ],
+  "Product_Recommendation": [
+    "For laptops under \u20b950,000, we highly recommend the Asus Vivobook 15 or Lenovo IdeaPad Slim 3 with Intel Core i5/Ryzen 5 and 16GB RAM for optimal performance!",
+    "Our top recommended budget picks include devices with 4.5+ star ratings, fast charging, and manufacturer warranty. Visit our 'Top Recommendations' section for detailed comparisons.",
+    "Based on popular customer ratings, here are our best-selling picks tailored to your price range! Check out the product showcase below."
+  ],
+  "Product_Details": [
+    "You can find detailed technical specifications, dimensions, box contents, and warranty information under the 'Product Details & Specs' tab on the product page.",
+    "Most electronics on our platform come with a standard 1-year manufacturer warranty. You can also add an extended warranty at checkout.",
+    "Stock availability is displayed in real-time on the product page. If an item is out of stock, click 'Notify Me' to get alerted when it's replenished."
+  ],
+  "Order_Tracking": [
+    "You can track your order in real-time by going to 'My Orders' -> 'Track Package'. You'll see current courier location and live status updates.",
+    "Orders are typically delivered within 2-4 business days. Check your registered SMS or email for your tracking number and courier link.",
+    "If your estimated delivery date has passed, please allow an additional 24 hours for transit delays or click 'Live Support' to check with dispatch."
+  ],
+  "Order_Cancellation": [
+    "You can cancel your order anytime before it has been shipped by navigating to 'My Orders' -> Select Order -> 'Cancel Order'.",
+    "If your order has already been dispatched, you can simply refuse delivery at your doorstep when the courier arrives.",
+    "There are no cancellation fees! Any prepaid amount will be refunded back to your source account automatically within 3-5 business days."
+  ],
+  "Returns": [
+    "We offer an easy 7-day doorstep return and replacement policy for most items. Go to 'My Orders' -> 'Return / Replace' to initiate a request.",
+    "Please ensure the item is unused, in its original packaging with all tags, accessories, and warranty cards intact.",
+    "Our courier partner will pick up the return from your delivery address within 24-48 hours after your request is submitted."
+  ],
+  "Refunds": [
+    "Refunds are initiated immediately after a return pickup is verified. For UPI/Net Banking, it takes 24-48 hours; for credit/debit cards, 3-5 business days.",
+    "For Cash on Delivery (COD) orders, your refund is transferred directly to your added bank account or UPI ID.",
+    "You can monitor your refund status anytime under 'My Orders' -> 'Refund Details'."
+  ],
+  "Payment_Issues": [
+    "If money was deducted for a failed order, don't worry! Banks automatically reverse the amount back to your account within 3 to 5 business days.",
+    "We support Credit/Debit Cards (Visa, MasterCard, RuPay), UPI (Google Pay, PhonePe, Paytm), Net Banking, EMI, and Cash on Delivery (COD).",
+    "All transactions are secured with 256-bit bank-grade encryption and 3D Secure verification for complete safety."
+  ],
+  "Customer_Support": [
+    "Our customer care team is available 24x7! You can call us toll-free at 1800-200-8899 or email care@ecommerce-store.com.",
+    "To connect with a live executive right now, click 'Live Chat with Support' in the sidebar.",
+    "You can also raise a support ticket under 'Help Center' -> 'Submit Ticket', and an agent will follow up within 2 hours."
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "intents": [
+    {
+      "tag": "Greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there?",
+        "Hey bot",
+        "Hello there",
+        "Hi I need help with shopping",
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks",
+        "Thank you so much",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "Hello! Welcome to our store. How can I help you find what you need today?",
+        "Hi there! I'm your e-commerce shopping assistant. Looking for recommendations, order updates, or support?",
+        "Greetings! Feel free to ask about products, tracking your order, payments, or returns."
+      ]
+    },
+    {
+      "tag": "Product_Search",
+      "patterns": [
+        "Search for wireless headphones",
+        "Show me sports shoes",
+        "Do you have smartphones?",
+        "I am looking for formal shirts",
+        "Find gaming keyboards",
+        "Show available smartwatches",
+        "Browse summer dresses",
+        "Where can I find bluetooth speakers?",
+        "Show me men's jackets",
+        "Do you sell running shoes?",
+        "Search products in electronics",
+        "Look for backpacks",
+        "I want to buy a tablet",
+        "Show me 4K LED televisions",
+        "Search for microwave ovens",
+        "Do you have winter wear?"
+      ],
+      "responses": [
+        "You can browse all matching products in our catalog by heading over to the 'Shop by Category' section or using our search bar.",
+        "We have an extensive collection in that category! Check out our trending arrivals on the explore page.",
+        "Searching our inventory now! You can filter results by brand, customer rating, and price on the catalog page."
+      ]
+    },
+    {
+      "tag": "Product_Recommendation",
+      "patterns": [
+        "Suggest a good laptop under ₹50,000",
+        "Recommend a budget smartphone under 20000",
+        "Which is the best running shoe under 3000?",
+        "Can you suggest a top-rated wireless earbud?",
+        "Suggest gifts for tech lovers",
+        "Recommend a good smartwatch under 5000",
+        "What are the best gaming laptops right now?",
+        "Suggest budget friendly headphones",
+        "Which television is best for a living room?",
+        "Give me recommendations for casual sneakers",
+        "What is the best selling tablet currently?",
+        "Recommend a lightweight laptop for students under 50k",
+        "Suggest best camera phone under 30k"
+      ],
+      "responses": [
+        "For laptops under ₹50,000, we highly recommend the Asus Vivobook 15 or Lenovo IdeaPad Slim 3 with Intel Core i5/Ryzen 5 and 16GB RAM for optimal performance!",
+        "Our top recommended budget picks include devices with 4.5+ star ratings, fast charging, and manufacturer warranty. Visit our 'Top Recommendations' section for detailed comparisons.",
+        "Based on popular customer ratings, here are our best-selling picks tailored to your price range! Check out the product showcase below."
+      ]
+    },
+    {
+      "tag": "Product_Details",
+      "patterns": [
+        "What are the specifications of this laptop?",
+        "Does this smartphone support 5G?",
+        "Is this product currently in stock?",
+        "What is the warranty period for this item?",
+        "Does this watch come with water resistance?",
+        "What materials is this shirt made of?",
+        "Are extra ear tips included in the box?",
+        "What are the dimensions and weight of this television?",
+        "Is international warranty provided?",
+        "Does this charger support 65W fast charging?",
+        "Tell me more about product battery life",
+        "Is this item eligible for free delivery?"
+      ],
+      "responses": [
+        "You can find detailed technical specifications, dimensions, box contents, and warranty information under the 'Product Details & Specs' tab on the product page.",
+        "Most electronics on our platform come with a standard 1-year manufacturer warranty. You can also add an extended warranty at checkout.",
+        "Stock availability is displayed in real-time on the product page. If an item is out of stock, click 'Notify Me' to get alerted when it's replenished."
+      ]
+    },
+    {
+      "tag": "Order_Tracking",
+      "patterns": [
+        "Where is my order?",
+        "Track my package",
+        "What is the status of my shipment?",
+        "When will my order arrive?",
+        "Has my order been dispatched?",
+        "Check delivery date of my order",
+        "Where is my parcel right now?",
+        "Why is my package delayed?",
+        "Give me the courier tracking number",
+        "My order has not arrived yet",
+        "Estimated delivery time for my shipment",
+        "Track order with ID 98234",
+        "Show current location of my package"
+      ],
+      "responses": [
+        "You can track your order in real-time by going to 'My Orders' -> 'Track Package'. You'll see current courier location and live status updates.",
+        "Orders are typically delivered within 2-4 business days. Check your registered SMS or email for your tracking number and courier link.",
+        "If your estimated delivery date has passed, please allow an additional 24 hours for transit delays or click 'Live Support' to check with dispatch."
+      ]
+    },
+    {
+      "tag": "Order_Cancellation",
+      "patterns": [
+        "I want to cancel my order",
+        "How do I cancel my purchase?",
+        "Can I cancel an order after it has been shipped?",
+        "Cancel order number 45892",
+        "I accidentally placed an order, please cancel it",
+        "Stop delivery and cancel my items",
+        "How can I revoke my order?",
+        "Is there any cancellation charge?",
+        "Can I cancel one item from my cart?",
+        "Why is the cancel button disabled on my order?",
+        "Cancellation request for my recent order",
+        "I want to stop this shipment immediately"
+      ],
+      "responses": [
+        "You can cancel your order anytime before it has been shipped by navigating to 'My Orders' -> Select Order -> 'Cancel Order'.",
+        "If your order has already been dispatched, you can simply refuse delivery at your doorstep when the courier arrives.",
+        "There are no cancellation fees! Any prepaid amount will be refunded back to your source account automatically within 3-5 business days."
+      ]
+    },
+    {
+      "tag": "Returns",
+      "patterns": [
+        "How can I return a product?",
+        "I want to return this item",
+        "What is your return policy?",
+        "How many days do I have to return an order?",
+        "Return window for electronics",
+        "The item is damaged, how do I return it?",
+        "I received the wrong size, I want to exchange",
+        "Schedule a return pickup from my address",
+        "Can I exchange a product instead of returning?",
+        "Product quality is bad, I want to return",
+        "How does doorstep return pickup work?",
+        "Return policy guidelines for clothes"
+      ],
+      "responses": [
+        "We offer an easy 7-day doorstep return and replacement policy for most items. Go to 'My Orders' -> 'Return / Replace' to initiate a request.",
+        "Please ensure the item is unused, in its original packaging with all tags, accessories, and warranty cards intact.",
+        "Our courier partner will pick up the return from your delivery address within 24-48 hours after your request is submitted."
+      ]
+    },
+    {
+      "tag": "Refunds",
+      "patterns": [
+        "Where is my refund?",
+        "How long does a refund take to process?",
+        "Check status of my refund",
+        "I returned the item, when will I get my money back?",
+        "Can I get a refund to my UPI or bank account?",
+        "Refund not credited to my card yet",
+        "Why is my refund amount pending?",
+        "Refund policy for canceled orders",
+        "How will I receive my refund for cash on delivery orders?",
+        "Money not refunded after 5 days",
+        "Send refund confirmation receipt"
+      ],
+      "responses": [
+        "Refunds are initiated immediately after a return pickup is verified. For UPI/Net Banking, it takes 24-48 hours; for credit/debit cards, 3-5 business days.",
+        "For Cash on Delivery (COD) orders, your refund is transferred directly to your added bank account or UPI ID.",
+        "You can monitor your refund status anytime under 'My Orders' -> 'Refund Details'."
+      ]
+    },
+    {
+      "tag": "Payment_Issues",
+      "patterns": [
+        "My payment failed. What should I do?",
+        "Money was deducted from my account but order not placed",
+        "Why was my credit card declined?",
+        "Transaction failed at checkout",
+        "What payment methods are available?",
+        "Do you accept cash on delivery?",
+        "Can I pay using Google Pay, PhonePe, or UPI?",
+        "Do you support EMI or credit card installments?",
+        "Double deduction happened for a single order",
+        "Payment gateway error during checkout",
+        "My net banking session timed out",
+        "Is it safe to enter my debit card details?"
+      ],
+      "responses": [
+        "If money was deducted for a failed order, don't worry! Banks automatically reverse the amount back to your account within 3 to 5 business days.",
+        "We support Credit/Debit Cards (Visa, MasterCard, RuPay), UPI (Google Pay, PhonePe, Paytm), Net Banking, EMI, and Cash on Delivery (COD).",
+        "All transactions are secured with 256-bit bank-grade encryption and 3D Secure verification for complete safety."
+      ]
+    },
+    {
+      "tag": "Customer_Support",
+      "patterns": [
+        "How can I contact customer support?",
+        "How do I speak to a real person?",
+        "Customer care phone number",
+        "What is the customer support email address?",
+        "Connect me to an agent",
+        "I need human assistance",
+        "Help desk working hours",
+        "Can someone call me back regarding my issue?",
+        "Open a support ticket",
+        "Talk to an executive right now",
+        "Customer helpline number",
+        "Where is your support office?"
+      ],
+      "responses": [
+        "Our customer care team is available 24x7! You can call us toll-free at 1800-200-8899 or email care@ecommerce-store.com.",
+        "To connect with a live executive right now, click 'Live Chat with Support' in the sidebar.",
+        "You can also raise a support ticket under 'Help Center' -> 'Submit Ticket', and an agent will follow up within 2 hours."
+      ]
+    }
+  ]
+}

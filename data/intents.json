@@ -1,0 +1,185 @@
+{
+  "intents": [
+    {
+      "tag": "Greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there?",
+        "Greetings",
+        "Hey, how are you?",
+        "Hello bot",
+        "Hi there, I need help",
+        "Anyone available to chat?",
+        "What's up?",
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks",
+        "Thank you so much",
+        "Thanks for your assistance",
+        "Have a great day"
+      ],
+      "responses": [
+        "Hello! I am your FAQ assistant. How can I assist you today?",
+        "Hi there! Welcome. Feel free to ask any question regarding accounts, payments, refunds, or support.",
+        "Greetings! How may I help you with our services today?",
+        "You're very welcome! Let me know if there's anything else I can help you with."
+      ]
+    },
+    {
+      "tag": "Login",
+      "patterns": [
+        "I forgot my password",
+        "How do I reset my password?",
+        "Can't sign in to my account",
+        "Trouble logging in",
+        "Password reset link not working",
+        "My account is locked after too many attempts",
+        "How can I change my login password?",
+        "Where do I enter my two-factor authentication code?",
+        "2FA verification code not received",
+        "Forgot my username or email",
+        "How do I unlock my account?",
+        "Invalid password error on login",
+        "I want to update my login credentials",
+        "Unable to log into my portal",
+        "Lost my password recovery options",
+        "Sign in failed with correct password"
+      ],
+      "responses": [
+        "To reset your password, click on the 'Forgot Password' link on the login page and enter your registered email address. We'll send you a secure password reset link.",
+        "If your account is locked due to multiple failed attempts, please wait 15 minutes or click 'Reset Password'. You can also reach our support team for an immediate manual unlock.",
+        "For Two-Factor Authentication (2FA) issues, please check your authenticator app or SMS inbox. If you still don't receive the code, try our backup recovery codes or contact Support."
+      ]
+    },
+    {
+      "tag": "Account",
+      "patterns": [
+        "How do I create an account?",
+        "How to sign up for a new account?",
+        "I want to register an account",
+        "Where can I register?",
+        "How do I update my profile details?",
+        "Change my account email address",
+        "How do I delete my account permanently?",
+        "Can I deactivate my account temporarily?",
+        "Where can I find my account settings?",
+        "How to edit my personal information?",
+        "Can I have multiple accounts?",
+        "How do I verify my email address?",
+        "Upload verification documents for account KYC",
+        "Change profile picture and username",
+        "Close my account and erase my profile"
+      ],
+      "responses": [
+        "To create a new account, click the 'Sign Up' or 'Register' button on the top right corner of our homepage and fill in your details.",
+        "You can update your personal information, email, or password anytime by navigating to 'Account Settings' -> 'Profile'.",
+        "If you wish to deactivate or permanently delete your account, visit 'Account Settings' -> 'Security & Privacy' -> 'Delete Account'. Note that this action is irreversible."
+      ]
+    },
+    {
+      "tag": "Payment",
+      "patterns": [
+        "What payment methods are available?",
+        "What payment options do you accept?",
+        "Can I pay with credit card or debit card?",
+        "Do you accept PayPal?",
+        "Can I use Google Pay or Apple Pay?",
+        "Is cash on delivery available?",
+        "My payment failed, what should I do?",
+        "Why was my card declined?",
+        "Where can I download my billing invoice or receipt?",
+        "Can I pay in monthly installments?",
+        "Do you support international currencies?",
+        "How do I update my saved credit card?",
+        "Is my payment information encrypted and secure?",
+        "Money was deducted but order was not placed",
+        "How do I remove an expired payment method?"
+      ],
+      "responses": [
+        "We accept all major credit and debit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, Google Pay, and Net Banking.",
+        "All transactions are secured with 256-bit SSL encryption and comply with PCI-DSS standards for maximum security.",
+        "If your payment was declined, please verify your card details, billing address, or contact your issuing bank. Any deducted funds for failed transactions are automatically reversed within 3-5 business days.",
+        "Invoices and billing receipts can be downloaded directly from your 'Billing History' tab in Account Settings."
+      ]
+    },
+    {
+      "tag": "Refund",
+      "patterns": [
+        "What is your refund policy?",
+        "How do I request a refund?",
+        "Can I get my money back?",
+        "How long does a refund take to process?",
+        "Check status of my refund",
+        "Where is my refund?",
+        "Can I cancel my order and get a refund?",
+        "Return policy guidelines",
+        "Do you have a 30-day money-back guarantee?",
+        "I received a damaged item, I want a refund",
+        "How will I receive my refund money?",
+        "Can I get a refund to a different bank account?",
+        "Refund not credited to my card yet",
+        "Partial refund request for missing items",
+        "Is there any cancellation fee for refunds?"
+      ],
+      "responses": [
+        "We offer a 30-day hassle-free money-back guarantee. You can request a refund directly from your 'Order History' page by selecting 'Request Refund'.",
+        "Once approved, refunds are processed within 3-5 business days and credited back to your original payment method.",
+        "To check the status of your refund, visit 'Orders' -> 'Refund Status'. You will also receive email updates as your refund progresses.",
+        "If your refund hasn't arrived after 7 business days from approval, please contact your bank or reach our support team with your transaction reference number."
+      ]
+    },
+    {
+      "tag": "Support",
+      "patterns": [
+        "How can I contact customer support?",
+        "How do I reach a human representative?",
+        "Speak to an agent",
+        "Customer service phone number",
+        "What is the support email address?",
+        "What are customer support working hours?",
+        "I need help from a real person",
+        "Can someone call me back?",
+        "Open a customer support ticket",
+        "Where is the live chat support?",
+        "Talk to a manager",
+        "Contact help desk",
+        "Technical support assistance",
+        "Is customer support available 24/7?",
+        "How long does customer service take to reply?"
+      ],
+      "responses": [
+        "Our customer support team is available 24/7! You can email us at support@example.com or call our toll-free number at 1-800-123-4567.",
+        "To connect with a live representative right away, click the 'Chat with Agent' button in the bottom corner of your screen.",
+        "You can also submit a support ticket via our Help Center, and one of our dedicated support specialists will reply within 2 to 4 hours."
+      ]
+    },
+    {
+      "tag": "Privacy",
+      "patterns": [
+        "What is your privacy policy?",
+        "How do you protect my personal data?",
+        "Do you sell my personal information to third parties?",
+        "How can I request data deletion under GDPR?",
+        "What data do you collect about me?",
+        "Are cookies used on this website?",
+        "How do you ensure data security and compliance?",
+        "Can I download a copy of my personal data?",
+        "Privacy and confidentiality terms",
+        "Who has access to my user data?",
+        "Is my data stored securely?",
+        "Where can I review the privacy agreement?"
+      ],
+      "responses": [
+        "We take data privacy very seriously. We never sell your personal information to third parties. You can read our full policy at https://example.com/privacy.",
+        "In accordance with GDPR and CCPA, you have the right to request a complete copy of your stored data or request permanent deletion at privacy@example.com.",
+        "All user data is encrypted in transit using TLS 1.3 and at rest using AES-256 standards with strict access control policies."
+      ]
+    }
+  ]
+}

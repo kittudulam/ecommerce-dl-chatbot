@@ -1,0 +1,19 @@
+{
+  "standard_lstm": {
+    "accuracy": 0.23076923076923078,
+    "macro_precision": 0.13999999999999999,
+    "macro_recall": 0.2,
+    "macro_f1": 0.16428571428571428,
+    "weighted_f1": 0.18956043956043958,
+    "latency_ms": 4.844500468327449
+  },
+  "bidirectional_lstm": {
+    "accuracy": 0.5769230769230769,
+    "macro_precision": 0.5166666666666666,
+    "macro_recall": 0.5333333333333333,
+    "macro_f1": 0.5085714285714286,
+    "weighted_f1": 0.5457875457875457,
+    "latency_ms": 6.442537674537072
+  },
+  "winner": "Bidirectional_LSTM"
+}
